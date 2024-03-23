@@ -1,0 +1,46 @@
+{
+  "name": "vue-app-starter",
+  "type": "module",
+  "version": "0.0.0",
+  "packageManager": "pnpm@8.15.4",
+  "description": "A awesome vue web app",
+  "scripts": {
+    "dev": "vite --port 4000 --open",
+    "build": "vite build",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@unhead/vue": "^1.8.20",
+    "@unocss/reset": "^0.58.6",
+    "@vueuse/core": "^10.9.0",
+    "@vueuse/head": "^2.0.0",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@m9ch/eslint-config-all": "^0.3.2",
+    "@shikijs/markdown-it": "^1.2.0",
+    "@types/markdown-it-link-attributes": "^3.0.4",
+    "@types/node": "^20.11.30",
+    "@types/nprogress": "^0.2.3",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "eslint": "^8.57.0",
+    "markdown-it-link-attributes": "^4.0.1",
+    "unocss": "^0.58.6",
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-vue-components": "^0.26.0",
+    "unplugin-vue-macros": "^2.7.12",
+    "unplugin-vue-markdown": "^0.26.0",
+    "unplugin-vue-router": "^0.8.5",
+    "vite": "^5.2.3",
+    "vite-plugin-vue-devtools": "^7.0.20",
+    "vite-plugin-vue-layouts": "^0.11.0",
+    "vite-plugin-webfont-dl": "^3.9.1",
+    "vitest": "^1.4.0"
+  }
+}
