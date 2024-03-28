@@ -69,7 +69,7 @@ devDependencies:
     version: 0.26.0(vue@3.4.21)
   unplugin-vue-macros:
     specifier: ^2.7.13
-    version: 2.7.13(@vueuse/core@10.9.0)(typescript@5.4.3)(vite@5.2.6)(vue@3.4.21)
+    version: 2.8.0(@vueuse/core@10.9.0)(typescript@5.4.3)(vite@5.2.6)(vue@3.4.21)
   unplugin-vue-markdown:
     specifier: ^0.26.0
     version: 0.26.0(vite@5.2.6)
@@ -6234,8 +6234,8 @@ packages:
       - rollup
     dev: true
 
-  /unplugin-combine@0.8.1(vite@5.2.6):
-    resolution: {integrity: sha512-m2OSmXXRwCPZx8Ct8eF8WbjgTo8bydim2W1ofu2hDabGdr2pgDAoFjOP1J4MOIwa0OByqk1JX8IGlSdeE6uxVQ==}
+  /unplugin-combine@0.9.0(vite@5.2.6):
+    resolution: {integrity: sha512-1bXgHXIhw/bNEFCwNnYRlOOcamsBNQObSWBuy3FcDcnMoFLIi4ZaMsi/L0cNxltfYBTS+QvGSZ1F+LgQ0vbcLg==}
     engines: {node: '>=16.14.0'}
     peerDependencies:
       esbuild: '>=0.13'
@@ -6298,8 +6298,8 @@ packages:
       - vue
     dev: true
 
-  /unplugin-vue-macros@2.7.13(@vueuse/core@10.9.0)(typescript@5.4.3)(vite@5.2.6)(vue@3.4.21):
-    resolution: {integrity: sha512-YlRA+wT+3rKnYyQBtaGkPQjutN/n3G6oLM0CGnjVZaAzE0OEwN0g1heiqc9Z/NSQ+oHMVLZaFwNaShluY9XrDQ==}
+  /unplugin-vue-macros@2.8.0(@vueuse/core@10.9.0)(typescript@5.4.3)(vite@5.2.6)(vue@3.4.21):
+    resolution: {integrity: sha512-FtqQ2s2TYHt6AvFFgIn5LKv4PoHJhe0se9XT4S5wG5RLA9MKOlaq8tvNt8gYQ9+dsIP8e4fULI1/N2ZC/cGe4A==}
     engines: {node: '>=16.14.0'}
     peerDependencies:
       vue: ^2.7.0 || ^3.2.25
@@ -6330,7 +6330,7 @@ packages:
       '@vue-macros/short-emits': 1.5.2(vue@3.4.21)
       '@vue-macros/short-vmodel': 1.4.2(vue@3.4.21)
       unplugin: 1.10.0
-      unplugin-combine: 0.8.1(vite@5.2.6)
+      unplugin-combine: 0.9.0(vite@5.2.6)
       unplugin-vue-define-options: 1.4.2(vue@3.4.21)
       vue: 3.4.21(typescript@5.4.3)
     transitivePeerDependencies:
