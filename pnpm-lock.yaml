@@ -36,7 +36,7 @@ devDependencies:
     version: 0.3.2(eslint@8.57.0)(typescript@5.4.3)
   '@shikijs/markdown-it':
     specifier: ^1.2.0
-    version: 1.2.3
+    version: 1.2.4
   '@types/markdown-it-link-attributes':
     specifier: ^3.0.4
     version: 3.0.4
@@ -1209,22 +1209,22 @@ packages:
     dev: true
     optional: true
 
-  /@shikijs/core@1.2.3:
-    resolution: {integrity: sha512-SM+aiQVaEK2P53dEcsvhq9+LJPr0rzwezHbMQhHaSrPN4OlOB4vp1qTdhVEKfMg6atdq8s9ZotWW/CSCzWftwg==}
+  /@shikijs/core@1.2.4:
+    resolution: {integrity: sha512-ClaUWpt8oTzjcF0MM1P81AeWyzc1sNSJlAjMG80CbwqbFqXSNz+NpQVUC0icobt3sZn43Sn27M4pHD/Jmp3zHw==}
     dev: true
 
-  /@shikijs/markdown-it@1.2.3:
-    resolution: {integrity: sha512-hpyzY/sgy8QZjLHIz6usYTJhQha9/uqT5+SX3VQ/4i1ZJHQ1QkHwwoncEohpsoGO2D9yG0dQkiKkxFVkPfWsbw==}
+  /@shikijs/markdown-it@1.2.4:
+    resolution: {integrity: sha512-toS/pgCQXZwvnSCTMhn44nYF0xtKfCIaM4LzJ/4jC2C+GLTNmJsW8yQXHs36AM/IXz79Z3PkChWEYiJkdQbmQw==}
     dependencies:
-      '@shikijs/transformers': 1.2.3
+      '@shikijs/transformers': 1.2.4
       markdown-it: 14.1.0
-      shiki: 1.2.3
+      shiki: 1.2.4
     dev: true
 
-  /@shikijs/transformers@1.2.3:
-    resolution: {integrity: sha512-7m63LXtBW9feqH4+dafLe92oXm/vs05e6qaN1w5/Byozaf+RCqzOj3/b2/wu7OzTgLe3O9PzIrO3FebkGJK26g==}
+  /@shikijs/transformers@1.2.4:
+    resolution: {integrity: sha512-ysGkpsHxRxLmz8nGKeFdV+gKj1NXt+88sM/34kfKVWTWIXg5gsFOJxJBbG7k+fUR5JlD6sNh65W9qPXrbVE1wQ==}
     dependencies:
-      shiki: 1.2.3
+      shiki: 1.2.4
     dev: true
 
   /@sigstore/bundle@2.2.0:
@@ -5645,10 +5645,10 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /shiki@1.2.3:
-    resolution: {integrity: sha512-+v7lO5cJMeV2N2ySK4l+51YX3wTh5I49SLjAOs1ch1DbUfeEytU1Ac9KaZPoZJCVBGycDZ09OBQN5nbcPFc5FQ==}
+  /shiki@1.2.4:
+    resolution: {integrity: sha512-Q9n9jKiOjJCRPztA9POn3/uZXNySHDNKAsPNpmtHDcFyi6ZQhx5vQKZW3Nhrwn8TWW3RudSRk66zqY603EZDeg==}
     dependencies:
-      '@shikijs/core': 1.2.3
+      '@shikijs/core': 1.2.4
     dev: true
 
   /side-channel@1.0.6:
