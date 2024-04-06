@@ -27,7 +27,7 @@
     "@types/node": "^20.11.30",
     "@types/nprogress": "^0.2.3",
     "@vitejs/plugin-vue": "^5.0.4",
-    "eslint": "^8.57.0",
+    "eslint": "^9.0.0",
     "markdown-it-link-attributes": "^4.0.1",
     "taze": "^0.13.3",
     "unocss": "^0.58.6",
