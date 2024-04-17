@@ -74,7 +74,7 @@ importers:
         version: 2.9.1(@vueuse/core@10.9.0(vue@3.4.23(typescript@5.4.5)))(esbuild@0.20.2)(rollup@4.14.3)(typescript@5.4.5)(vite@5.2.9(@types/node@20.12.7))(vue@3.4.23(typescript@5.4.5))
       unplugin-vue-markdown:
         specifier: ^0.26.0
-        version: 0.26.1(rollup@4.14.3)(vite@5.2.9(@types/node@20.12.7))
+        version: 0.26.2(rollup@4.14.3)(vite@5.2.9(@types/node@20.12.7))
       unplugin-vue-router:
         specifier: ^0.8.5
         version: 0.8.6(rollup@4.14.3)(vue-router@4.3.1(vue@3.4.23(typescript@5.4.5)))(vue@3.4.23(typescript@5.4.5))
@@ -506,11 +506,11 @@ packages:
     peerDependencies:
       eslint: '>=7.4.0'
 
-  '@mdit-vue/plugin-component@2.1.1':
-    resolution: {integrity: sha512-paTg5zYtJbLGMTQ6W4YNyyBKBiGOvm9Mhl/R9eanKgTMsFErksXFuygut8vgd9ueSPuaTk/eRQfHQEXfv41MTg==}
+  '@mdit-vue/plugin-component@2.1.2':
+    resolution: {integrity: sha512-n1HcAC82l912HhtiMSxl5pQLKBYbPok/IcdGRD49rTt53NXBqct68qo58+7jvsj+f8Lmo7kjD+em3tP4BSgl0A==}
 
-  '@mdit-vue/plugin-frontmatter@2.1.0':
-    resolution: {integrity: sha512-vVDjrv1RZorGo1yW7PZg7/dwRupSBzMt8YE8mmM+TMA0NtFEhYfWdHj8vWgkXm1ZJUugmXheL6SxJzo6fz6uHA==}
+  '@mdit-vue/plugin-frontmatter@2.1.2':
+    resolution: {integrity: sha512-2YOVOsMRtf11bZ6mEB4xoWD6RG5X0Ex+g/1c1iXoYUMUahlZnz9flXUM6WAE++HsLR3Wkvd5FNhGUArrcxn0dA==}
 
   '@mdit-vue/types@2.1.0':
     resolution: {integrity: sha512-TMBB/BQWVvwtpBdWD75rkZx4ZphQ6MN0O4QB2Bc0oI5PC2uE57QerhNxdRZ7cvBHE2iY2C+BUNUziCfJbjIRRA==}
@@ -2922,8 +2922,8 @@ packages:
     peerDependencies:
       vue: ^2.7.0 || ^3.2.25
 
-  unplugin-vue-markdown@0.26.1:
-    resolution: {integrity: sha512-Tj62DfQuK50XT8bTKVLPrHUI2VMZvrHoI6vKQOdoYk3tyQRWck6GW0bMtwVL6E0KzFP0A7p6BTYcOZP6/cNbLw==}
+  unplugin-vue-markdown@0.26.2:
+    resolution: {integrity: sha512-FjmhLZ+RRx7PFmfBCTwNUZLAj0Y9z0y/j79rTgYuXH9u+K6tZBFB+GpFFBm+4yMQ0la3MNCl7KHbaSvfna2bEA==}
     peerDependencies:
       vite: ^2.0.0 || ^3.0.0-0 || ^4.0.0-0 || ^5.0.0-0
 
@@ -3618,12 +3618,12 @@ snapshots:
       - supports-color
       - typescript
 
-  '@mdit-vue/plugin-component@2.1.1':
+  '@mdit-vue/plugin-component@2.1.2':
     dependencies:
       '@types/markdown-it': 14.0.1
       markdown-it: 14.1.0
 
-  '@mdit-vue/plugin-frontmatter@2.1.0':
+  '@mdit-vue/plugin-frontmatter@2.1.2':
     dependencies:
       '@mdit-vue/types': 2.1.0
       '@types/markdown-it': 14.0.1
@@ -6487,10 +6487,10 @@ snapshots:
       - vite
       - webpack
 
-  unplugin-vue-markdown@0.26.1(rollup@4.14.3)(vite@5.2.9(@types/node@20.12.7)):
+  unplugin-vue-markdown@0.26.2(rollup@4.14.3)(vite@5.2.9(@types/node@20.12.7)):
     dependencies:
-      '@mdit-vue/plugin-component': 2.1.1
-      '@mdit-vue/plugin-frontmatter': 2.1.0
+      '@mdit-vue/plugin-component': 2.1.2
+      '@mdit-vue/plugin-frontmatter': 2.1.2
       '@mdit-vue/types': 2.1.0
       '@rollup/pluginutils': 5.1.0(rollup@4.14.3)
       '@types/markdown-it': 14.0.1
