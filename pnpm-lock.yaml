@@ -38,7 +38,7 @@ importers:
         version: 0.3.2(eslint@9.7.0)(typescript@5.4.5)
       '@shikijs/markdown-it':
         specifier: ^1.2.0
-        version: 1.11.1
+        version: 1.11.2
       '@types/markdown-it-link-attributes':
         specifier: ^3.0.4
         version: 3.0.5
@@ -778,14 +778,14 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@shikijs/core@1.11.1':
-    resolution: {integrity: sha512-Qsn8h15SWgv5TDRoDmiHNzdQO2BxDe86Yq6vIHf5T0cCvmfmccJKIzHtep8bQO9HMBZYCtCBzaXdd1MnxZBPSg==}
+  '@shikijs/core@1.11.2':
+    resolution: {integrity: sha512-9IBY31lvOo2uhrZjqRt2wTqfqfrXJnddnIx0PFL5E8a5RQUNOhkx+PD11PogZtyrIHlL4aTYDVlb+eyryzy+pQ==}
 
-  '@shikijs/markdown-it@1.11.1':
-    resolution: {integrity: sha512-1ih2yvuAUWBr8BLSqt70R4a7VvYqCGnBrjmnSRMMdLudrKi9l3pr3T+ypL4CLb6J5qc/iy2QthUZAEJ+hOvZng==}
+  '@shikijs/markdown-it@1.11.2':
+    resolution: {integrity: sha512-CWWiwsToyQH0525a8FhDQOZOhfQRIc+ISw/pvV5tU2j26+usWi5paxqX2TIGMB21Ds/IjUfxm7+tWaMkHZjgpg==}
 
-  '@shikijs/transformers@1.11.1':
-    resolution: {integrity: sha512-e6DUvZRylv+V8htF5q3ZuNyPaxJYQnsLyTd2S/K6ePs8t132NJS82LG2vARmtfSFP3I3CcBXfJ73FaCgI9kAMg==}
+  '@shikijs/transformers@1.11.2':
+    resolution: {integrity: sha512-5ge1XsuZvboCID8onSGe546iVHNiSZBZMTCk+CAgTbiLGst8j0KlYKq8aaDGIg7wCt5yntvXDEq1u+pu5rdbdA==}
 
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
@@ -2994,8 +2994,8 @@ packages:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
     engines: {node: '>=8'}
 
-  shiki@1.11.1:
-    resolution: {integrity: sha512-VHD3Q0EBXaaa245jqayBe5zQyMQUdXBFjmGr9MpDaDpAKRMYn7Ff00DM5MLk26UyKjnml3yQ0O2HNX7PtYVNFQ==}
+  shiki@1.11.2:
+    resolution: {integrity: sha512-WEHfKf+JWEKm/p8BoiE5F4m6VwV6LzY7nFfwRz0nAj+sVD1sRyWiODYScDu3Q8P/Dpi7xKe1TDJF3ZOQnhfT1g==}
 
   side-channel@1.0.6:
     resolution: {integrity: sha512-fDW/EZ6Q9RiO8eFG8Hj+7u/oW+XrPTIChwCOM2+th2A6OblDtYYIpve9m+KvI9Z4C9qSEXlaGR6bTEYHReuglA==}
@@ -4282,19 +4282,19 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.19.0':
     optional: true
 
-  '@shikijs/core@1.11.1':
+  '@shikijs/core@1.11.2':
     dependencies:
       '@types/hast': 3.0.4
 
-  '@shikijs/markdown-it@1.11.1':
+  '@shikijs/markdown-it@1.11.2':
     dependencies:
-      '@shikijs/transformers': 1.11.1
+      '@shikijs/transformers': 1.11.2
       markdown-it: 14.1.0
-      shiki: 1.11.1
+      shiki: 1.11.2
 
-  '@shikijs/transformers@1.11.1':
+  '@shikijs/transformers@1.11.2':
     dependencies:
-      shiki: 1.11.1
+      shiki: 1.11.2
 
   '@types/estree@1.0.5': {}
 
@@ -6954,9 +6954,9 @@ snapshots:
 
   shebang-regex@3.0.0: {}
 
-  shiki@1.11.1:
+  shiki@1.11.2:
     dependencies:
-      '@shikijs/core': 1.11.1
+      '@shikijs/core': 1.11.2
       '@types/hast': 3.0.4
 
   side-channel@1.0.6:
