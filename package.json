@@ -29,7 +29,7 @@
     "@vitejs/plugin-vue": "^5.0.4",
     "eslint": "^9.0.0",
     "markdown-it-link-attributes": "^4.0.1",
-    "taze": "^0.16.0",
+    "taze": "^0.17.0",
     "unocss": "^0.63.0",
     "unplugin-auto-import": "^0.18.0",
     "unplugin-vue-components": "^0.27.0",
