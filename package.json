@@ -2,7 +2,7 @@
   "name": "my-awesome-app",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@9.13.2",
+  "packageManager": "pnpm@9.14.1",
   "description": "A awesome vue web app",
   "scripts": {
     "dev": "vite --port 4000 --open",
