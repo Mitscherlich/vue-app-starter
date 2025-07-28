@@ -16,7 +16,7 @@ importers:
         version: 0.65.4
       '@vueuse/core':
         specifier: ^12.0.0
-        version: 12.2.0(typescript@5.4.5)
+        version: 12.8.2(typescript@5.4.5)
       '@vueuse/head':
         specifier: ^2.0.0
         version: 2.0.0(vue@3.5.18(typescript@5.4.5))
@@ -65,13 +65,13 @@ importers:
         version: 0.65.4(postcss@8.5.6)(rollup@4.40.1)(vite@6.1.6(@types/node@22.10.7)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.0))(vue@3.5.18(typescript@5.4.5))
       unplugin-auto-import:
         specifier: ^19.0.0
-        version: 19.1.1(@vueuse/core@12.2.0(typescript@5.4.5))
+        version: 19.1.1(@vueuse/core@12.8.2(typescript@5.4.5))
       unplugin-vue-components:
         specifier: ^0.28.0
         version: 0.28.0(@babel/parser@7.28.0)(rollup@4.40.1)(vue@3.5.18(typescript@5.4.5))
       unplugin-vue-macros:
         specifier: ^2.7.13
-        version: 2.13.7(@vueuse/core@12.2.0(typescript@5.4.5))(esbuild@0.24.2)(rollup@4.40.1)(typescript@5.4.5)(vite@6.1.6(@types/node@22.10.7)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.0))(vue@3.5.18(typescript@5.4.5))
+        version: 2.13.7(@vueuse/core@12.8.2(typescript@5.4.5))(esbuild@0.24.2)(rollup@4.40.1)(typescript@5.4.5)(vite@6.1.6(@types/node@22.10.7)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.0))(vue@3.5.18(typescript@5.4.5))
       unplugin-vue-markdown:
         specifier: ^0.28.0
         version: 0.28.0(rollup@4.40.1)(vite@6.1.6(@types/node@22.10.7)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.0))
@@ -1120,8 +1120,8 @@ packages:
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
 
-  '@types/web-bluetooth@0.0.20':
-    resolution: {integrity: sha512-g9gZnnXVq7gM7v3tJCWV/qw7w+KeOlSHAhgF9RytFyifW6AF61hdT2ucrYhPq9hLs5JIryeupHV3qGk95dH9ow==}
+  '@types/web-bluetooth@0.0.21':
+    resolution: {integrity: sha512-oIQLCGWtcFZy2JW77j9k8nHzAOpqMHLQejDA48XXMWH6tjCQHz5RCFz1bzsmROyL6PUm+LLnUiI4BCn221inxA==}
 
   '@typescript-eslint/eslint-plugin@5.62.0':
     resolution: {integrity: sha512-TiZzBSJja/LbhNPvk6yc0JrX9XqhQ0hdh6M2svYfsHGejaKFIAGd9MQ+ERIMzLGlN/kZoYIgdxFV0PuljTKXag==}
@@ -1580,19 +1580,19 @@ packages:
   '@vue/shared@3.5.18':
     resolution: {integrity: sha512-cZy8Dq+uuIXbxCZpuLd2GJdeSO/lIzIspC2WtkqIpje5QyFbvLaI5wZtdUjLHjGZrlVX6GilejatWwVYYRc8tA==}
 
-  '@vueuse/core@12.2.0':
-    resolution: {integrity: sha512-jksyNu+5EGwggNkRWd6xX+8qBkYbmrwdFQMgCABsz+wq8bKF6w3soPFLB8vocFp3wFIzn0OYkSPM9JP+AFKwsg==}
+  '@vueuse/core@12.8.2':
+    resolution: {integrity: sha512-HbvCmZdzAu3VGi/pWYm5Ut+Kd9mn1ZHnn4L5G8kOQTPs/IwIAmJoBrmYk2ckLArgMXZj0AW3n5CAejLUO+PhdQ==}
 
   '@vueuse/head@2.0.0':
     resolution: {integrity: sha512-ykdOxTGs95xjD4WXE4na/umxZea2Itl0GWBILas+O4oqS7eXIods38INvk3XkJKjqMdWPcpCyLX/DioLQxU1KA==}
     peerDependencies:
       vue: '>=2.7 || >=3'
 
-  '@vueuse/metadata@12.2.0':
-    resolution: {integrity: sha512-x6zynZtTh1l52m0y8d/EgzpshnMjg8cNZ2KWoncJ62Z5qPSGoc4FUunmMVrrRM/I/5542rTEY89CGftngZvrkQ==}
+  '@vueuse/metadata@12.8.2':
+    resolution: {integrity: sha512-rAyLGEuoBJ/Il5AmFHiziCPdQzRt88VxR+Y/A/QhJ1EWtWqPBBAxTAFaSkviwEuOEZNtW8pvkPgoCZQ+HxqW1A==}
 
-  '@vueuse/shared@12.2.0':
-    resolution: {integrity: sha512-SRr4AZwv/giS+EmyA1ZIzn3/iALjjnWAGaBNmoDTMEob9JwQaevAocuaMDnPAvU7Z35Y5g3CFRusCWgp1gVJ3Q==}
+  '@vueuse/shared@12.8.2':
+    resolution: {integrity: sha512-dznP38YzxZoNloI0qpEfpkms8knDtaoQ6Y/sfS0L7Yki4zh40LFHEhur0odJC6xTHG5dxWVPiUWBXn+wCG2s5w==}
 
   acorn-jsx@5.3.2:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
@@ -4855,7 +4855,7 @@ snapshots:
 
   '@types/unist@3.0.3': {}
 
-  '@types/web-bluetooth@0.0.20': {}
+  '@types/web-bluetooth@0.0.21': {}
 
   '@typescript-eslint/eslint-plugin@5.62.0(@typescript-eslint/parser@5.62.0(eslint@9.25.1(jiti@2.4.2))(typescript@5.4.5))(eslint@9.25.1(jiti@2.4.2))(typescript@5.4.5)':
     dependencies:
@@ -5263,13 +5263,13 @@ snapshots:
     transitivePeerDependencies:
       - rollup
 
-  '@vue-macros/define-models@1.3.3(@vueuse/core@12.2.0(typescript@5.4.5))(rollup@4.40.1)(vue@3.5.18(typescript@5.4.5))':
+  '@vue-macros/define-models@1.3.3(@vueuse/core@12.8.2(typescript@5.4.5))(rollup@4.40.1)(vue@3.5.18(typescript@5.4.5))':
     dependencies:
       '@vue-macros/common': 1.15.1(rollup@4.40.1)(vue@3.5.18(typescript@5.4.5))
       ast-walker-scope: 0.6.2
       unplugin: 1.16.0
     optionalDependencies:
-      '@vueuse/core': 12.2.0(typescript@5.4.5)
+      '@vueuse/core': 12.8.2(typescript@5.4.5)
     transitivePeerDependencies:
       - rollup
       - vue
@@ -5609,11 +5609,11 @@ snapshots:
 
   '@vue/shared@3.5.18': {}
 
-  '@vueuse/core@12.2.0(typescript@5.4.5)':
+  '@vueuse/core@12.8.2(typescript@5.4.5)':
     dependencies:
-      '@types/web-bluetooth': 0.0.20
-      '@vueuse/metadata': 12.2.0
-      '@vueuse/shared': 12.2.0(typescript@5.4.5)
+      '@types/web-bluetooth': 0.0.21
+      '@vueuse/metadata': 12.8.2
+      '@vueuse/shared': 12.8.2(typescript@5.4.5)
       vue: 3.5.18(typescript@5.4.5)
     transitivePeerDependencies:
       - typescript
@@ -5626,9 +5626,9 @@ snapshots:
       '@unhead/vue': 1.11.13(vue@3.5.18(typescript@5.4.5))
       vue: 3.5.18(typescript@5.4.5)
 
-  '@vueuse/metadata@12.2.0': {}
+  '@vueuse/metadata@12.8.2': {}
 
-  '@vueuse/shared@12.2.0(typescript@5.4.5)':
+  '@vueuse/shared@12.8.2(typescript@5.4.5)':
     dependencies:
       vue: 3.5.18(typescript@5.4.5)
     transitivePeerDependencies:
@@ -7937,7 +7937,7 @@ snapshots:
       - supports-color
       - vue
 
-  unplugin-auto-import@19.1.1(@vueuse/core@12.2.0(typescript@5.4.5)):
+  unplugin-auto-import@19.1.1(@vueuse/core@12.8.2(typescript@5.4.5)):
     dependencies:
       local-pkg: 1.1.1
       magic-string: 0.30.17
@@ -7946,7 +7946,7 @@ snapshots:
       unplugin: 2.2.0
       unplugin-utils: 0.2.4
     optionalDependencies:
-      '@vueuse/core': 12.2.0(typescript@5.4.5)
+      '@vueuse/core': 12.8.2(typescript@5.4.5)
 
   unplugin-combine@1.0.3(esbuild@0.24.2)(rollup@4.40.1)(vite@6.1.6(@types/node@22.10.7)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.0)):
     dependencies:
@@ -7990,7 +7990,7 @@ snapshots:
       - rollup
       - vue
 
-  unplugin-vue-macros@2.13.7(@vueuse/core@12.2.0(typescript@5.4.5))(esbuild@0.24.2)(rollup@4.40.1)(typescript@5.4.5)(vite@6.1.6(@types/node@22.10.7)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.0))(vue@3.5.18(typescript@5.4.5)):
+  unplugin-vue-macros@2.13.7(@vueuse/core@12.8.2(typescript@5.4.5))(esbuild@0.24.2)(rollup@4.40.1)(typescript@5.4.5)(vite@6.1.6(@types/node@22.10.7)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.0))(vue@3.5.18(typescript@5.4.5)):
     dependencies:
       '@vue-macros/better-define': 1.11.1(rollup@4.40.1)(vue@3.5.18(typescript@5.4.5))
       '@vue-macros/boolean-prop': 0.5.3(rollup@4.40.1)(vue@3.5.18(typescript@5.4.5))
@@ -7998,7 +7998,7 @@ snapshots:
       '@vue-macros/common': 1.15.1(rollup@4.40.1)(vue@3.5.18(typescript@5.4.5))
       '@vue-macros/config': 0.5.1(rollup@4.40.1)(vue@3.5.18(typescript@5.4.5))
       '@vue-macros/define-emit': 0.5.2(rollup@4.40.1)(vue@3.5.18(typescript@5.4.5))
-      '@vue-macros/define-models': 1.3.3(@vueuse/core@12.2.0(typescript@5.4.5))(rollup@4.40.1)(vue@3.5.18(typescript@5.4.5))
+      '@vue-macros/define-models': 1.3.3(@vueuse/core@12.8.2(typescript@5.4.5))(rollup@4.40.1)(vue@3.5.18(typescript@5.4.5))
       '@vue-macros/define-prop': 0.6.2(rollup@4.40.1)(vue@3.5.18(typescript@5.4.5))
       '@vue-macros/define-props': 4.0.4(@vue-macros/reactivity-transform@1.1.4(rollup@4.40.1)(vue@3.5.18(typescript@5.4.5)))(rollup@4.40.1)(vue@3.5.18(typescript@5.4.5))
       '@vue-macros/define-props-refs': 1.3.3(rollup@4.40.1)(vue@3.5.18(typescript@5.4.5))
