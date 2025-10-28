@@ -26,7 +26,7 @@
     "@types/markdown-it-link-attributes": "^3.0.4",
     "@types/node": "^24.0.0",
     "@types/nprogress": "^0.2.3",
-    "@vitejs/plugin-vue": "^5.0.4",
+    "@vitejs/plugin-vue": "^6.0.0",
     "eslint": "^9.0.0",
     "markdown-it-link-attributes": "^4.0.1",
     "taze": "^19.0.0",
