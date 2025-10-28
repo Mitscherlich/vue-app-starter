@@ -24,7 +24,7 @@
     "@m9ch/eslint-config-all": "^0.3.2",
     "@shikijs/markdown-it": "^3.0.0",
     "@types/markdown-it-link-attributes": "^3.0.4",
-    "@types/node": "^22.0.0",
+    "@types/node": "^24.0.0",
     "@types/nprogress": "^0.2.3",
     "@vitejs/plugin-vue": "^5.0.4",
     "eslint": "^9.0.0",
